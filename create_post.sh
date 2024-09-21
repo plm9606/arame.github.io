@@ -10,8 +10,8 @@ read title
 current_date=$(date +"%Y-%m-%d")
 
 # 파일 이름을 생성합니다. (yyyy-mm-dd-title.md)
-# filename=$(echo $current_date | sed 's/ /-/' | sed 's/ /-/g' | sed 's/:/-/g')-$(echo $title | tr '[:upper:]' '[:lower:]' | tr -d '[:punct:]' | tr ' ' '-').md
-filename=$(echo $current_date)-$(echo $title | tr '[:upper:]' '[:lower:]' | tr -d '[:punct:]' | tr -d '[:space:]').md
+filename=$(echo $current_date | sed 's/ /-/' | sed 's/ /-/g' | sed 's/:/-/g')-$(echo $title | tr '[:upper:]' '[:lower:]' | tr -d '[:punct:]' | tr ' ' '-').md
+# filename=$(echo $current_date)-$(echo $title | tr '[:upper:]' '[:lower:]' | tr -d '[:punct:]' | tr -d '[:space:]').md
 
 # 파일 경로를 설정합니다.
 file_path="_posts/${filename}"
