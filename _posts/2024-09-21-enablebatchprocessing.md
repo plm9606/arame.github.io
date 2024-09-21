@@ -1,7 +1,7 @@
 ---
-title: @EnableBatchProsessing 정리
-date: 2024-09-21 14:00:28
-categories: [spring]
+title: <p>@EnableBatchProsessing</p>
+# date: 2024-09-21 14:00:28
+categories: [spring, batch]
 tags: [spring,spring_batch,annotation]
 author: aram
 toc: true
