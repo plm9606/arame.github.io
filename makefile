@@ -1,7 +1,5 @@
-make local:
+local:
 	bundle exec jekyll s
 
-make post:
-	echo "Create new post ...";
+post:
 	sh ./create_post.sh
-	echo "Done!";
