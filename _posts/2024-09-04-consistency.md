@@ -1,13 +1,11 @@
 ---
-title: consistency
+title: 일관성(consistency)
 categories: [cs]
 tags: [cs, consistency, eventual_consistency]
 author: aram
 toc: true
 comment: true
 ---
-# consistency (일관성)
-
 ## Consistency란 무엇?
 분산 시스템과 분산 데이터베이스 맥락에서 모든 레플리카 혹은 노드가 특정 규칙이나 제약사항을 지키면서 같은 데이터view를 보여줄 수 있도록 보장하는 속성을 말한다. 
 이는 데이터가 여러 위치나 노드에 분산되어 있더라도 시스템 전체에서 데이터가 일관성 있고 올바른 상태로 유지되도록 보장.
